@@ -26,7 +26,25 @@ console.log(orgs)
 ```
 
 ```js
-todo
+[
+	{id: 26, name: 'Lahti'},
+	// …
+	{id: 89, name: 'City of Austin'},
+	// …
+	{id: 744, name: 'Demo public webpage for discussion'},
+	// …
+	{id: 3655, name: 'Lillehammer Kommune'},
+	// …
+	{id: 4054, name: 'Oslo Public'},
+	// …
+	{id: 4468, name: 'Downtown Halifax Public Page'},
+	// …
+	{id: 3902, name: 'Grand Lyon '},
+	// …
+	{id: 5447, name: 'Beijing University '},
+	// …
+	{id: 5737, name: 'Portal de Datos de Ciclovías'}
+]
 ```
 
 
