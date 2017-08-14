@@ -4,7 +4,8 @@
 	"version": "0.1.0",
 	"main": "index.js",
 	"files": [
-		"index.js"
+		"index.js",
+		"data.json"
 	],
 	"keywords": [
 		"bike",
@@ -16,13 +17,18 @@
 	"repository": "derhuerst/eco-counter-organisations",
 	"bugs": "https://github.com/derhuerst/eco-counter-organisations/issues",
 	"license": "ISC",
-	"engines": {"node": ">=6"},
+	"engines": {
+		"node": ">=6"
+	},
 	"devDependencies": {
+		"eco-counter-client": "^0.1.0",
 		"tap-min": "^1.2.1",
-		"tape": "^4.6.3"
+		"tape": "^4.6.3",
+		"queue": "^4.2.1"
 	},
 	"scripts": {
+		"build": "node build.js",
 		"test": "node test.js | tap-min",
-		"prepublishOnly": "npm test"
+		"prepublishOnly": "npm run build && npm test"
 	}
 }
