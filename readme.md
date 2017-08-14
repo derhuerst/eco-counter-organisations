@@ -1,5 +1,7 @@
 # eco-counter-organisations
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/eco-counter-organisations.svg)](https://greenkeeper.io/)
+
 **A list of [Eco Counter](http://www.eco-compteur.com/en/) organisation IDs.**
 
 [![npm version](https://img.shields.io/npm/v/eco-counter-organisations.svg)](https://www.npmjs.com/package/eco-counter-organisations)
