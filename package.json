@@ -1,0 +1,28 @@
+{
+	"name": "eco-counter-organisations",
+	"description": "A list of Eco Counter organisation IDs.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"bike",
+		"bicycle",
+		"counter"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/eco-counter-organisations",
+	"repository": "derhuerst/eco-counter-organisations",
+	"bugs": "https://github.com/derhuerst/eco-counter-organisations/issues",
+	"license": "ISC",
+	"engines": {"node": ">=6"},
+	"devDependencies": {
+		"tap-min": "^1.2.1",
+		"tape": "^4.6.3"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
