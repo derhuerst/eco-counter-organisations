@@ -1,5 +1,5 @@
 'use strict'
 
-const data = require('./data.json')
+const raw = require('./data.json')
 
-module.exports = data.map(([id, name]) => {id, name})
+module.exports = raw.map(([id, name]) => ({id, name}))
