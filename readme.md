@@ -17,7 +17,7 @@ npm install eco-counter-organisations
 
 ## Usage
 
-The npm package contains a list of IDs and names.
+The npm package contains a list of organisations, each with an ID and a name. An organisation is a set of counters. Using [`eco-counter-client`](https://github.com/derhuerst/eco-counter-client), you can get all counters in these organisations.
 
 ```js
 const orgs = require('eco-counter-organisations')
