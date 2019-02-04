@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"eco-counter-client": "^0.1.0",
-		"queue": "^5.0.0",
+		"queue": "^5.0.1",
 		"tap-min": "^1.2.1",
 		"tape": "^4.8.0"
 	},
